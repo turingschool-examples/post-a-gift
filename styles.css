@@ -1,0 +1,57 @@
+body, html {
+  font-family: 'PT Serif', serif;
+  height: 100%;
+}
+
+body {
+  background-image: url('./mailboxes.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+label, input {
+  width: 100%;;
+}
+
+input {
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #880808;
+  border: none;
+  font-size: 18px;
+  padding: 5px 15px;
+  color: white;
+  transition: 300ms;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
+img {
+  display: block;
+  max-width: 75px;
+}
+
+.main {
+  max-width: 500px;
+  background-color: white;
+  padding: 25px;
+}
+
+.img-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
