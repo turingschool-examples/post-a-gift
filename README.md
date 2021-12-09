@@ -13,3 +13,6 @@ You'll be writing the functionality of this gift list adding application. The HT
 * As a user, I can submit the form without providing an optional link. 
 
 
+**BONUS**
+* You don't _need_ to have a class to achieve the above functionality, but try adding one anyway. Make sure you're writing tests for it to. What benefit does this give you to use a class vs. storing everything in `script.js`?
+* Submitting the gift form could be a bit more exciting. Try implementing this [canvas-confetti npm package](https://www.npmjs.com/package/canvas-confetti) to set off some confetti when the submit button is clicked. 
