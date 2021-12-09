@@ -1,5 +1,8 @@
 # POST a Gift
 
+![puppy mail](https://media.giphy.com/media/hTsAAaYV5nRjq/giphy.gif)
+
+
 You'll be working with the [holiday shopping API](https://github.com/turingschool-examples/holiday-shopping-api) from Day Three. This time, you'll focus on writing some POST requests!
 
 You'll be finishing up the functionality of this gift adding application. The HTML and CSS have been written for you, so that you can focus on the functionality, but you are welcome to change things if needed. 
