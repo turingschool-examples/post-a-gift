@@ -25,6 +25,6 @@ _Make sure to consider the user experience! For every step, think about what inf
 _Note: Everyone will be posting to the SAME API, you might see some gifts getting POSTed that you didn't send! Make sure you are using unique id numbers for each POST, and you might want to experiement with DELETE._
 
 **BONUS**
-* You don't _need_ to have a class to achieve the above functionality, but try adding one anyway. Make sure you're writing tests for it to. What benefit does this give you to use a class vs. storing everything in `script.js`?
-* Submitting the gift form could be a bit more exciting. Try implementing this [canvas-confetti npm package](https://www.npmjs.com/package/canvas-confetti) to set off some confetti when the submit button is clicked. 
+* You don't _need_ to have a class to achieve the above functionality, but try adding one anyway. Make sure you're writing tests for it too. What benefit does this give you to use a class vs. storing everything in `script.js`?
+* Submitting the gift form could be a bit more exciting. Try implementing this [canvas-confetti npm package](https://www.npmjs.com/package/canvas-confetti) to set off some confetti when the submit button is clicked. Thanks to Tony for finding this cool package!
 * Get some more practice with GET requests, and design a way to display the list of all the gifts. Remember to focus on clean CSS, and make sure this matches with the overall theme of the application. 
