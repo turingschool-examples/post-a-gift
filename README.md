@@ -18,10 +18,10 @@ _Make sure to consider the user experience! For every step, think about what inf
 
 | Description | URL | Method | Required Properties for Request | Sample Successful Response |
 |----------|-----|--------|---------------------|-----------------|
-| Get all items |`http://localhost:3001/items`| GET  | none | An array containing all items |
-| Add item |`http://localhost:3001/items` | POST  | `{ id: <number>, recipient: <string>, name: <string>, priceInDollars: <number> }` | "Item #<id number here> has been added!" |
+| Get all items |`https://mysterious-mesa-00016.herokuapp.com/items`| GET  | none | An array containing all items |
+| Add item |`https://mysterious-mesa-00016.herokuapp.com/items` | POST  | `{ id: <number>, recipient: <string>, name: <string>, priceInDollars: <number> }` | "Item #<id number here> has been added!" | Delete an item | `https://mysterious-mesa-00016.herokuapp.com/<id number here>` | DELETE | none | "Item #<id number here> has been deleted" 
   
-_Note: Everyone will be posting to the SAME API! You might see some gifts getting POSTed that you didn't send!_
+_Note: Everyone will be posting to the SAME API, you might see some gifts getting POSTed that you didn't send! Make sure you are using unique id numbers for each POST, and you might want to experiement with DELETE. _
 
 **BONUS**
 * You don't _need_ to have a class to achieve the above functionality, but try adding one anyway. Make sure you're writing tests for it to. What benefit does this give you to use a class vs. storing everything in `script.js`?
