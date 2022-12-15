@@ -26,6 +26,7 @@ You'll need to use this [Holiday Shopping API](https://github.com/turingschool-e
 | Delete an item | `http://localhost:3001/items/<id number here>` | DELETE | none | none | "Item #<id number here> has been deleted" 
   
 _Hint: Check out the POST request lesson for more details - find it in the lessons list or calendar._
+
 _Note:  Make sure you are using unique id numbers for each POST, and you might want to experiement with DELETE._
 
 **BONUS**
