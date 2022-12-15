@@ -19,12 +19,13 @@ You'll need to use this [Holiday Shopping API](https://github.com/turingschool-e
 
 ## Endpoints
 
-| Description | URL | Method | Required Properties for Request | Sample Successful Response |
+| Description | URL | Method | Required Headers | Required Properties for Request | Sample Successful Response |
 |----------|-----|--------|---------------------|-----------------|
-| Get all items |`http://localhost:3001/items`| GET  | none | An array containing all items |
-| Add item |`http://localhost:3001/items` | POST  | `{ id: <number>, recipient: <string>, name: <string>, priceInDollars: <number> }` | "Item #<id number here> has been added!" 
-| Delete an item | `http://localhost:3001/items/<id number here>` | DELETE | none | "Item #<id number here> has been deleted" 
+| Get all items |`http://localhost:3001/items`| GET  | none | none | An array containing all items |
+| Add item |`http://localhost:3001/items` | POST  |  'Content-Type': 'application/json' | `{ id: <number>, recipient: <string>, name: <string>, priceInDollars: <number> }` | "Item #<id number here> has been added!" 
+| Delete an item | `http://localhost:3001/items/<id number here>` | DELETE | none | none | "Item #<id number here> has been deleted" 
   
+_Hint: Check out the POST request lesson for more details - find it in the lessons list or calendar._
 _Note:  Make sure you are using unique id numbers for each POST, and you might want to experiement with DELETE._
 
 **BONUS**
