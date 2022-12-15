@@ -20,7 +20,7 @@ You'll need to use this [Holiday Shopping API](https://github.com/turingschool-e
 ## Endpoints
 
 | Description | URL | Method | Required Headers | Required Properties for Request | Sample Successful Response |
-|----------|-----|--------|---------------------|-----------------|
+|----------|-----|--------|-----------------|---------------------|-----------------|
 | Get all items |`http://localhost:3001/items`| GET  | none | none | An array containing all items |
 | Add item |`http://localhost:3001/items` | POST  |  'Content-Type': 'application/json' | `{ id: <number>, recipient: <string>, name: <string>, priceInDollars: <number> }` | "Item #<id number here> has been added!" 
 | Delete an item | `http://localhost:3001/items/<id number here>` | DELETE | none | none | "Item #<id number here> has been deleted" 
