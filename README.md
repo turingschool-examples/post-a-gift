@@ -30,6 +30,7 @@ _Hint: Check out the POST request lesson for more details - find it in the lesso
 _Note:  Make sure you are using unique id numbers for each POST, and you might want to experiement with DELETE._
 
 **BONUS**
-* You don't _need_ to have a class to achieve the above functionality, but try adding one anyway. Make sure you're writing tests for it too. What benefit does this give you to use a class vs. storing everything in `script.js`?
+* Write tests for your code and consider how you are organizing your code. If another developer took over this project after you, would they have an easy time figuring out where everything is and what everything does? 
+* Consider refactoring your functions so that they are Pure. Review [this lesson](https://frontend.turing.edu/lessons/module-1/js-pure-functions.html) to refresh your understanding of Pure Functions.
 * Submitting the gift form could be a bit more exciting. Try implementing this [canvas-confetti npm package](https://www.npmjs.com/package/canvas-confetti) to set off some confetti when the submit button is clicked. Thanks to Tony for finding this cool package!
 * Get some more practice with GET requests, and design a way to display the list of all the gifts. Remember to focus on clean CSS, and make sure this matches with the overall theme of the application. 
